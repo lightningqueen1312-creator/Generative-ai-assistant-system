@@ -64,7 +64,7 @@ Enterprise-AI-Knowledge-Assistant/
 └── assets/
 
 
- Installation
+1. Installation
 
 Clone the repository
 
@@ -73,7 +73,7 @@ git clone <repository-url>
 cd Enterprise-AI-Knowledge-Assistant
 
 
- Create a virtual environment
+ 2.Create a virtual environment
 
  Windows
 
@@ -81,7 +81,7 @@ python -m venv venv
 venv\Scripts\activate
 
 
- Install dependencies
+3. Install dependencies
 
 python -m pip install --upgrade pip
 
@@ -104,7 +104,7 @@ pip install accelerate
 pip install scikit-learn
 
 
- Configure Environment Variables
+4. Configure Environment Variables
 
 Create a `.env` file in the project root.
 
@@ -113,8 +113,7 @@ Example:
 GOOGLE_API_KEY=your_google_api_key
 
 
-
- Run the Application
+5. Run the Application
 
 
 streamlit run app.py
