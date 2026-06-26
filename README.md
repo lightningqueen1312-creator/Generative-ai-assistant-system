@@ -85,7 +85,24 @@ venv\Scripts\activate
 
 python -m pip install --upgrade pip
 
-pip install streamlit langchain==1.3.11 langchain-core langchain-google-genai google-generativeai sentence-transformers faiss-cpu numpy pypdf python-dotenv pandas tqdm
+pip install streamlit
+pip install google-generativeai
+pip install python-dotenv
+pip install langchain
+pip install langchain-community
+pip install sentence-transformers
+pip install faiss-cpu
+pip install pypdf2
+pip install pandas
+pip install numpy
+pip install sqlite-utils
+pip install tiktoken
+pip install chromadb
+pip install transformers
+pip install torch
+pip install accelerate
+pip install scikit-learn
+
 
  Configure Environment Variables
 
