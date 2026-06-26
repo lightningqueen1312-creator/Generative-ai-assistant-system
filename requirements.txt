@@ -1,0 +1,17 @@
+streamlit
+google-generativeai
+python-dotenv
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
+PyPDF2
+pandas
+numpy
+sqlite-utils
+tiktoken
+chromadb
+transformers
+torch
+accelerate
+scikit-learn
